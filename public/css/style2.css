@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color:azure;
+    
+}
+img{
+    border-radius: 10px;
+
+} 
+.navbar{
+    background-color: lightcoral !important;
+    text-align: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+.navbar-nav a:hover{
+    background-color: burlywood;
+    color: azure;
+    text-align: center;
+    justify-content: center;
+}
+@media (max-width:800px) {
+    .navbar-nav{
+        text-align: center;
+    }
+    
+}
+/* estilos carrusel */
+.imagen1{
+    padding: 50px;
+    width: 100%;
+    height: 75vh;
+    border-radius: 40px;
+    border-style: solid;
+    
+    
+
+}
+.card-title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    border-style: solid;
+    background-color: burlywood;
+   
+}
+
+.card-text{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.card-img-top{
+    padding: 30px;
+    width: 70%;
+    height: 75vw;
+    border-radius: 20px;
+    border-style: solid;
+    margin: auto;
+    
+
+}
+.F1{
+    text-align: center;
+    border-style: inset outset;
+    border-style: solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cornsilk;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    color: black;
+    
+}
